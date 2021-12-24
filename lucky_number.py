@@ -1,6 +1,6 @@
-q = int(input())
 k = 0
-for u in range(q) :
+q = int(input())
+for u in range(q):
     r = input()
     for d in r :
         if d == "4":
