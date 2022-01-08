@@ -1,11 +1,9 @@
-k = 0
-q = int(input())
-for u in range(q):
-    r = input()
-    for d in r :
-        if d == "4":
+k = 0 
+t = int(input())
+for _ in range (t):
+    f = input()
+    for i in range (len(f)):
+        if f [i] == "4" :
             k +=1
 
-
     print(k)
-
