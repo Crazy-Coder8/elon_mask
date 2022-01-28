@@ -24,6 +24,9 @@ while (a>0) :
         a = a%2 
 
 
+# the can also be solved the same thing......!
+
+"""
 
 
 print(c)
