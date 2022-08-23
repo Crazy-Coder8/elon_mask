@@ -27,6 +27,6 @@ def string_transformation(string):
             
     """_summary_
     """    
- 
+  # you can add user input in the problem and solve
 
 print(string_transformation("a Blue MOON"))
