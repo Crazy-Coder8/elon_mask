@@ -11,7 +11,7 @@ for i in range(s):
                 
 """
 
-l =[string[i:j] for i in range(s) for i in range(i+1,s+1)]
+l =[string[i:j] for i in range(s) for j in range(i+1,s+1)]
 
 print(l.count(sub_string))
 

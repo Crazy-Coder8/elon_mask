@@ -1,15 +1,9 @@
-def get_middle(s):
-    a = len(s)
-    if a %2 == 0 :
-        m = s[a/2]
-        print(m)
-        
-    """     
-    else :
-      s, m = s[a/2],s[a+1/2]
-      print(s,m)
-    """  
+def print_full_name(first,last):
+    # Write your code here
+    'Hello +first+ last+! You just delved into python.'
+    
 
-
-s = "ener"
-get_middle(s)
+if __name__ == '__main__':
+    first_name = "uday"
+    last_name = "lkkkkk"
+    print_full_name(first_name, last_name)
