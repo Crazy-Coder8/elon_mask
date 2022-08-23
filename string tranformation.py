@@ -25,7 +25,8 @@ def string_transformation(string):
         
     return d
             
-    
-    
+    """_summary_
+    """    
+ 
 
-print(string_transformation("als sod "))
+print(string_transformation("a Blue MOON"))
