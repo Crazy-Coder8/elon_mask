@@ -1,12 +1,8 @@
-q = int(input())
-k = 0
-for u in range(q) :
-    r = input()
-    for d in r :
-        if d == "4":
-            k +=1
+import re as rl 
+
+d = '1223 44 44 554 32 [[ 999 '
 
 
-    print(k)
-
-
+l= rl.match("3$",d)
+print(l)
+    
