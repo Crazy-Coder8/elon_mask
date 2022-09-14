@@ -1,9 +1,17 @@
-def print_full_name(first,last):
-    # Write your code here
-    'Hello +first+ last+! You just delved into python.'
-    
 
-if __name__ == '__main__':
-    first_name = "uday"
-    last_name = "lkkkkk"
-    print_full_name(first_name, last_name)
+for i in range(int(input())):
+    
+        n = input()
+        l = list(map(int,input().split()))
+        g = l[0]
+        d= 0
+
+        for i in range(1,len(l)):
+            if g == 0 :
+                break 
+            
+            g = g-1+l[i]
+            d+=1
+            
+            
+        print(d+g)
