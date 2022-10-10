@@ -5,10 +5,10 @@ for _ in range(int(input())):
     a, b = map(int, input().split())
     l =[]
     for i in range(a):
-       l.append("1")
+       l.append(1)
     
     for i in range(b ):
-        l.append("0")
+        l.append(0)
         
 
     c= 0
@@ -19,9 +19,8 @@ for _ in range(int(input())):
             c +=1
             
         if c ==2 :
+            print("YES")
             break 
-
-    if c== 2 :
-        print("YES")
-    else:
-        print("NO")  
+        
+    if c ==0 :
+        print("NO")
